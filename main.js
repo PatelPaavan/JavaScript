@@ -10,3 +10,7 @@ console.log(typeof isIsLand);
 console.log(typeof population);
 console.log(typeof language);
 console.log(typeof country);
+language =  "Hindi";
+const motherTongue = "Gujarati";
+console.log(motherTongue);
+// motherTongue = "Gujarati";   Can't change the const variable
