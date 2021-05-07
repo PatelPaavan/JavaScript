@@ -28,3 +28,17 @@ let averagePopulation = 33;
 console.log("Does my country has less people than average Population? ",population>averagePopulation);
 let description = country + " is in " + continent + ", and its " + population +" million people speak " + language;
 console.log(description);
+
+//  Introduction
+
+let firstName = "Pavan";
+let lastName = "Patel";
+
+const fullName = `${firstName} ${lastName}`;
+console.log(fullName);
+
+console.log(`use backtiicks to make code clean`);
+console.log(`backticks also
+works if you need
+multiline output`);
+console.log(`it works same as inverted commas but makes it easier`)
