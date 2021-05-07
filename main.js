@@ -42,3 +42,29 @@ console.log(`backticks also
 works if you need
 multiline output`);
 console.log(`it works same as inverted commas but makes it easier`)
+
+
+//type conversion
+
+let inputAge = "1997";
+console.log(inputAge + 24);     // Converts number to string
+console.log(Number(inputAge) + 24);  // explicitly convert string to number.
+
+
+//type coersion
+
+console.log(2021 - inputAge);       // automatically convert string to number.
+console.log(2021/(2021-inputAge));
+
+//truthy and falsy values
+
+// there are 5 falsy values: 0, " ", undefined, null, NaN.
+// Every other values are truthy values.
+
+const money = 0;        //money is 0 so it will be considered false.
+
+if(money){
+    console.log(`Don't Spend all the money`);
+}else{
+    console.log(`You should get a job`);
+}
