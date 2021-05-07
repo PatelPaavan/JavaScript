@@ -8,9 +8,13 @@ let markHeight = 1.69;
 let johnMass = 92;
 let johnHeight = 1.95;
 
-console.log("Test Data 1")
-console.log("BMI of Mark: ",markMass/markHeight**2)
-console.log("BMI of John: ",johnMass/johnHeight**2)
+let markBMI = markMass/markHeight**2;
+let johnBMI = johnMass/johnHeight**2;
+let markHigherBMI = markBMI > johnBMI;
+
+
+console.log("Test Data 1");
+console.log(markBMI,johnBMI,markHigherBMI);
 
 //Test Data 2
 
@@ -19,6 +23,9 @@ markHeight = 1.88;
 
 johnMass = 85;
 johnHeight = 1.76;
+
+markBMI = markMass/markHeight**2;
+johnBMI = johnMass/johnHeight**2;
+markHigherBMI = markBMI > johnBMI;
 console.log("Test Data 2")
-console.log("BMI of Mark: ",markMass/markHeight**2)
-console.log("BMI of John: ",johnMass/johnHeight**2)
+console.log(markBMI,johnBMI,markHigherBMI);
