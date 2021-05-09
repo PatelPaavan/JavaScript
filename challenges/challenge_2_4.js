@@ -16,3 +16,14 @@ for(billNo = 0; billNo<=bills.length-1; billNo++){
 
 console.log(bills, tips, totals);
 
+calcAverage = function(arr){
+    let sum = 0;
+    for(let i = 0; i <= arr.length-1; i++){
+        sum +=arr[i];
+    }
+    return sum/arr.length;
+}
+
+console.log(`Average of all bills with tip is ${calcAverage(totals)}`);
+
+
